@@ -1,6 +1,9 @@
 In runtime system will load the class in memory when the object is not created is using the (Class.forName(**);)
 Main Method should be public beacause it will be invoked by the JVM in Memory 
 if we need to access class outisde ofpackage we can use public 
-Class.forName("com.mysql.jdbc.Driver");
+Class.forName("com.mysql.jdbc.Driver"); //load driver
 to connect jdbc to the application we need to use the following command
-Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/revatureBangalore");
+Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/revatureBangalore"); //create database Connection
+PreparedStatement ps = con.prepareStatement("Insert into LinkedUser(entity)  values(?,?,?,?)"); // create a dynamic query
+//? is known as placeholder for the value
+//how to replace place holder (?) with values?
