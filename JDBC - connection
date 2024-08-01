@@ -2,3 +2,5 @@ In runtime system will load the class in memory when the object is not created i
 Main Method should be public beacause it will be invoked by the JVM in Memory 
 if we need to access class outisde ofpackage we can use public 
 Class.forName("com.mysql.jdbc.Driver");
+to connect jdbc to the application we need to use the following command
+Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/revatureBangalore");
