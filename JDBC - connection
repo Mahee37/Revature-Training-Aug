@@ -1,0 +1,4 @@
+In runtime system will load the class in memory when the object is not created is using the (Class.forName(**);)
+Main Method should be public beacause it will be invoked by the JVM in Memory 
+if we need to access class outisde ofpackage we can use public 
+Class.forName("com.mysql.jdbc.Driver");
