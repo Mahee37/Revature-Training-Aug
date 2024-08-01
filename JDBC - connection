@@ -7,3 +7,9 @@ Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/revatu
 PreparedStatement ps = con.prepareStatement("Insert into LinkedUser(entity)  values(?,?,?,?)"); // create a dynamic query
 //? is known as placeholder for the value
 //how to replace place holder (?) with values?
+step 4:
+For INSERT ,DELETE and UPDATE we will use executeUpdate() method.
+//ExecuteUpdate() Method return type will be int, it will indicate number of rows affected by queries.
+//for select query we will use executeQuery() Method
+//executeQuery() method return type will be ResultSet
+i = ps.executeUpdate();
