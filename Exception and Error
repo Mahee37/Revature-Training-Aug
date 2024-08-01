@@ -1,0 +1,42 @@
+About Exception and Error:              
+																																		Throwable
+																																		/				\
+																															Exception			Error
+
+Exception : Unexpected event Occured during the flow of execution of Program, User needs to Handle The Exception
+
+
+																														Exception -CHECKED AND UNCHECKED
+																														================================
+
+
+1)Checked Exception - Compile time Exception
+
+Checked Exception is A resource Level Exception - If we use any resource in application system will forced to handle exception by user otherwise it wont allowed to compile.
+
+2)Unchecked Exception - Runtime Exception
+Unchecked Exceptions can be handled by the System
+
+Examples:
+Arthimetic Exception is child of run time Exception
+ArrayIndexOutOfBounds Exception is also child of Runtime Exception
+
+
+Handling the Exceptions:
+========================
+Throws is a way to transfer the Exception if not know how to handle exception
+try Catch block - to handle the exception 
+
+																																					#Java code
+																																							try
+																																							{
+																																							Class.forName("xyz");
+																																							}
+																																							catch(Exception e)
+																																							{
+																																							e.printStackTrace():
+																																							}
+																																							finally
+																																							{ System.out.println("Code Exception Handled");}
+																																								
+Error:User created Exception that ccan be corrected by user like synatx, inavalid declaration etc;
