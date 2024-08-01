@@ -1,0 +1,40 @@
+    This is the day 4 Aug - 2024 Reavture Training
+
+SDLC - Software Development Life Cycle
+There are 6 Phases in the SDLC
+PHASE 1: Planning were it included - Requirement(SRS),Analysis(use case Diagram),Feasible study
+PHASE 2: Designing - Were the Class Diagaram, Sequence Diagram,Activity Diagram, Flow Chart
+PHASE 3: Development - were the coding and logic will be done
+PHASE 4: Testing - were testing like Unit Testing,Integration Testing ,JUNIT
+PHASE 5: Implementation and Deployment - Adding project in production now
+PHASE 6: Maintainence and Services - Were the Project will be maintained versions
+================================================================================
+SDLC MODELS: 
+->Water Fall Model - not in use by IT industry
+-> Prototype model - Protype is nothing but taking sample wether it is web page or project or demo 
+->Incremental Model - Coming soon in somw websites thats what really it called ww generally or continuously update the Project
+
+**Agile Model - is used to implement above SDLC model** Generally to set the drawback in Water Fall Model that is during Devlopment and testing there is no interaction with Client     
+                                                        so we need to get client interaction we use this method.
+
+                         Scrum Master- Project Manager <--Product catalog(Stack Owner)
+                                                            /       \
+                                                            story   story
+                                                                    /                                                                            
+                                                                    story  point 1
+                                                                    story point 2
+
+                                                                Lead
+                                                  Scrum Team - Developer
+                                                                Tester
+
+
+Product catalog- is Combination of the complete Story Points Or Tasks these P.Catalog will be splitted into story lines/ Tasks.
+The time given by Scrum Master will given to Developer to complete the story is known as SPRINT.
+BACKLOG- After SPRINT completion then the Code Changes will be noted in the BACKLOG
+Project Manager taking Meeting every day with Developer about Deadline this meeting is known as SCRUM MEETING.
+RETRO SPECT- Again the Mistakes and all other things will be noted in the BACKLOG and will be signed off from the Project.
+
+                                            
+
+                       
