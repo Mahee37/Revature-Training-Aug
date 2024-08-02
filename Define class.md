@@ -18,3 +18,4 @@ int i= 6;
     }
 }
 Inner Class can be Private Protected and Static.
+A$B -is  tells that main method is inside that class can be accessed through this Command
