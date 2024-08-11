@@ -1,0 +1,59 @@
+Week 2
+Unit Testing :
+		Testing is nothing but testing the code by passing the Prominent values to it,Generally Unit Testing is a open source testing framework for java
+		progarmming and it is useful for to create the user own test cases and check the code performance.
+		
+//Manual Testing-Testing wich was not done by any Tool Support then it is called Manual Testing
+//AutoMated Testing-Testing which was done by the Tool Support then it is called AutoMated Testing
+//Unit Testing has many Annotation such as
+//@Test-- It is used to Define method of Test Method
+//@Test(timeout=1000) -- It is used to define the TesT Method Time frame if test method runs morethan 1000ms then the test case is failed
+//@Before -- it tells that method can be invoked for the every test case
+//@BeforeClass--It tell that method can be invoked only at the beginning of test cases
+//@After--It tells that method can be invoked for the every test case
+//AfterClass-it tells that method can be invoked only at the end of the test cases
+
+Assert class:
+//Generally Assert method is used to validate the conditions
+//void assertEquals(object o1,object o2); --primitve or objects
+//void assertTrue(boolean condition)
+//void assertFalse(boolean condition)
+//void assertNull(object obj1)
+//void assertNotNull(object obj1)
+
+File Handling:
+	Handling the input and output Operations is known as file handling
+	we can handle the file in two ways one is Read and Write 
+	
+//I/O reader--byte mode(InputStream) -- char mode(Reader) --writer--byte mode(OuputStream) --char mode(Writer)
+//BufferReader(buffering characters from file means more chars from file) b = new BufferReader(new FileReader("my.txt"));
+//BufferWriter(simillar to Reader)
+
+
+
+Serialization :
+	Converting byte Stream to object is serialization and object --> byte stream Deserialization
+//ObjectOuptutStream.writeObject();
+//ObjectInputStream.readObject();
+
+
+Logger and Logging File:
+         Logback is a framework to create and manage the highly configurable solution and genertaing the log files for java applications
+//Generally Logback is a Succesor for Log4j Framework beacuse of its ease to use it was mostly used now
+//log-Levels are: TRACE,DEBUG,INFO,WARN,ERROR-
+//Trace- to find the all records of deatiled debugginf information
+//Debug-it is also same asa trace but it is used to find precisded Debug Infomation
+//INFo-Used to describe the applications normal messages
+//Warn -it is used to describe the Potential Issues
+//ERROR -it is used to describe the error Messages or to describe the errror
+
+
+Factory Mode of Creating object:
+	For the Code Safety creating a Object in Some Other class by using refernce of the object is known as FactoryMode Of Object Creation
+//It is not safe to create the object direct for that we create a class for to create an object and we define a method in one class and implement the method in 
+//another class then we will validate the input as "user"(opitonal) then we will create an object there
+
+SQL - Structured Query Language (SEQUEL)
+
+Database:
+
