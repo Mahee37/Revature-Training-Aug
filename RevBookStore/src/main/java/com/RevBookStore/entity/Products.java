@@ -15,7 +15,7 @@ import javax.persistence.OneToMany;
 public class Products {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private long id;
+    private long id;//use id as product id itself don't change this
 
     private String name;
     private String description;
