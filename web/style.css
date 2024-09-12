@@ -1,0 +1,16 @@
+body{
+    background-color: aliceblue;
+}
+@media(min-width:768px)
+{
+    body
+    {
+        background-color: black;
+    }
+}
+@media(min-width:992px)
+{
+    body{
+        background-color: blueviolet;
+    }
+}
